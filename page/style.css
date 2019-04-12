@@ -68,7 +68,6 @@ img {
 	background-repeat: no-repeat;
 	height: 50px;
 	text-align: right;
-    width: 100%;
 }
 
 #header h1 {
@@ -81,7 +80,7 @@ img {
 /* ƒƒCƒ“•”•ª‚Ìİ’è */
 #main {
 	margin: 30px;
-    min-width: 1450px;
+	width: 1150px;
 }
 
 #main h1 {
@@ -115,6 +114,7 @@ img {
 .base {
 	width: 270px;
 	float: left;
+	display: block;
 	text-align: center;
 	margin-right: 10px;
 }
@@ -130,6 +130,7 @@ img {
 .base2 {
 	width: 560px;
 	float: left;
+	display: block;
 	text-align: center;
 	margin-right: 10px;
 }
@@ -155,6 +156,7 @@ img {
 	width: 250px;
 	text-align: left;
 	margin: 5px auto;
+	display: block;
 }
 
 .flow_base h1 {
@@ -242,7 +244,7 @@ img {
 	margin: 5px auto;
 	padding: 3px;
 	text-decoration: none;
-	text-align: center;
+	text-align: left;
 	margin: 3px auto;
 	padding: 0px;
 }
